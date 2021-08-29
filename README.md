@@ -6,7 +6,7 @@
 ## 使い方
 
 Lambda関数のデプロイで楽をしかったため[AWS Serverless Application Model(SAM)](https://aws.amazon.com/jp/serverless/sam/)を使っています。  
-SAMおよびGo言語の開発環境を整えたうえで`sam build`および`sam deploy`を使ってデプロイしてください。  
+SAM CLIおよびGo言語の開発環境を整えたうえで`sam build`および`sam deploy`を使ってデプロイしてください。  
 
 ```bash
 # samconfig.toml に必要な設定を記載済の前提
@@ -15,7 +15,7 @@ sam build && sam deploy
 
 ### デモ用ダッシュボード
 
-CloudFormation Templateの`DoCreateExampleDashboard`パラメーターを`Yes`にするとデモ用ダッシュボードを作成します。  
+CloudFormation Templateの`DoCreateDemoDashboard`パラメーターを`Yes`にするとデモ用ダッシュボードを作成します。  
 とりあえず試したい場合はこのパラメーターを設定すると良いでしょう。  
 
 ```bash
