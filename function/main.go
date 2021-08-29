@@ -16,7 +16,7 @@ type MyEvent struct {
 
 func renderUsage() (string, error) {
 	return strings.ReplaceAll(`## ojichat custom widget
-おじさんがあいさつをしてくれます。
+あたかもおじさんが語りかけてくれるようなメッセージを表示します。
 
 ### パラメーター
 以下のJSONを渡してください。
@@ -47,7 +47,7 @@ func handler(ctx context.Context, event MyEvent) (string, error) {
 		return renderUsage()
 	}
 
-	// あいさつを返す
+	// メッセージを返す
 	config := generator.Config{
 		TargetName:       event.Name,
 		EmojiNum:         4,
