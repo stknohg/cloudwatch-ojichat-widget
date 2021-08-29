@@ -23,6 +23,10 @@ CloudFormation Templateの`DoCreateExampleDashboard`パラメーターを`Yes`�
 sam build && sam deploy --parameter-overrides DoCreateDemoDashboard="Yes"
 ```
 
+この場合`ojichat-widget-demo`という名前のダッシュボードが作成されます。
+
+![widget demo](./assets/widget-demo.png)
+
 ## Thanks
 
 本ソフトウェアは以下を参考にしています。
