@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: |
+  Ojichat function for CloudWatch custom widgets and sample dashboard.
+Globals:
+  Function:
+    Timeout: 5
+Parameters:
+  DoCreateDemoDashboard:
+    Description: Do you want an example dashboard created that shows how the custom widget works?
+    Type: String
+    AllowedValues: [ 'Yes', 'No']
+    Default: 'No'
+Conditions:
+  CreateDemoDashboard:
+    Fn::Equals: ["Yes", !Ref DoCreateDemoDashboard]
+Resources:
+  # Lambda function
+  OjichatFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: function/
+      Handler: main
+      Runtime: go1.x
+      Tracing: PassThrough
+  # Demo dashboard
+  DemoDashboard:
+    Type: AWS::CloudWatch::Dashboard
+    Condition: CreateDemoDashboard
+    Properties:
+      DashboardName: "ojichat-widget-demo"
+      DashboardBody:
+        Fn::Sub: |
+          {
+            "widgets": [
+              {
+                "type": "custom",
+                "width": 24,
+                "height": 3,
+                "properties": {
+                  "endpoint": "${OjichatFunction.Arn}",
+                  "params": {
+                    "name": "ぴよ"
+                  },
+                  "title": "ojichat",
+                  "updateOn": {
+                    "refresh": true
+                  }
+                }
+              }
+            ]
+          }
