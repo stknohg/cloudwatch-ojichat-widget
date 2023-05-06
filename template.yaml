@@ -19,6 +19,7 @@ Resources:
   OjichatFunction:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: cloudwatch-ojichat-widget
       CodeUri: function/
       Handler: main
       Runtime: go1.x
@@ -28,7 +29,7 @@ Resources:
     Type: AWS::CloudWatch::Dashboard
     Condition: CreateDemoDashboard
     Properties:
-      DashboardName: "ojichat-widget-demo"
+      DashboardName: ojichat-widget-demo
       DashboardBody:
         Fn::Sub: |
           {
