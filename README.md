@@ -13,6 +13,17 @@ SAM CLIおよびGo言語の開発環境を整えたうえで`sam build`および
 sam build && sam deploy
 ```
 
+### ビルド環境
+
+Go 1.21.1、SAM CLI 1.97.0の環境でビルドおよび動作確認しています。  
+
+```powershell
+PS C:\> go version
+go version go1.21.1 windows/amd64
+PS C:\> sam --version
+SAM CLI, version 1.97.0
+```
+
 ### デモ用ダッシュボード
 
 CloudFormation Templateの`DoCreateDemoDashboard`パラメーターを`Yes`にするとデモ用ダッシュボードを作成します。  

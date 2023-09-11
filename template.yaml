@@ -21,9 +21,12 @@ Resources:
     Properties:
       FunctionName: cloudwatch-ojichat-widget
       CodeUri: function/
-      Handler: main
-      Runtime: go1.x
+      Handler: bootstrap
+      Runtime: provided.al2
+      Architectures: [arm64]
       Tracing: PassThrough
+    Metadata:
+      BuildMethod: go1.x
   # Demo dashboard
   DemoDashboard:
     Type: AWS::CloudWatch::Dashboard
