@@ -27,6 +27,8 @@ Resources:
       Tracing: PassThrough
     Metadata:
       BuildMethod: go1.x
+      BuildProperties:
+        TrimGoPath: True
   # Demo dashboard
   DemoDashboard:
     Type: AWS::CloudWatch::Dashboard
