@@ -22,7 +22,7 @@ Resources:
       FunctionName: cloudwatch-ojichat-widget
       CodeUri: function/
       Handler: bootstrap
-      Runtime: provided.al2
+      Runtime: provided.al2023
       Architectures: [arm64]
       Tracing: PassThrough
     Metadata:
