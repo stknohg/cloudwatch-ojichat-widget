@@ -1,9 +1,9 @@
 module oji-widget
 
-go 1.20
+go 1.22
 
 require (
-	github.com/aws/aws-lambda-go v1.41.0
+	github.com/aws/aws-lambda-go v1.47.0
 	github.com/greymd/ojichat v0.2.2
 )
 
