@@ -43,7 +43,7 @@ sam build && sam deploy --parameter-overrides DoCreateDemoDashboard="Yes"
 本ソフトウェアは以下を参考にしています。
 
 * [greymd/ojichat](https://github.com/greymd/ojichat)
-* [mokocm/serverless-ojichat](https://github.com/mokocm/serverless-ojichat)
+* [mokonist/serverless-ojichat](https://github.com/mokonist/serverless-ojichat)
 
 ## License
 
