@@ -15,13 +15,13 @@ sam build && sam deploy
 
 ### ビルド環境
 
-Go 1.23.0、SAM CLI 1.123.0の環境でビルドおよび動作確認しています。  
+Go 1.23.0、SAM CLI 1.134.0の環境でビルドおよび動作確認しています。  
 
 ```powershell
 PS C:\> go version
-go version go1.23.0 windows/amd64
+go version go1.23.6 windows/amd64
 PS C:\> sam --version
-SAM CLI, version 1.123.0
+SAM CLI, version 1.134.0
 ```
 
 ### デモ用ダッシュボード
