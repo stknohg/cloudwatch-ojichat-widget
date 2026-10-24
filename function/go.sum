@@ -1,5 +1,5 @@
-github.com/aws/aws-lambda-go v1.49.0 h1:z4VhTqkFZPM3xpEtTqWqRqsRH4TZBMJqTkRiBPYLqIQ=
-github.com/aws/aws-lambda-go v1.49.0/go.mod h1:dpMpZgvWx5vuQJfBt0zqBha60q7Dd7RfgJv23DymV8A=
+github.com/aws/aws-lambda-go v1.55.1 h1:We2cCp4BwqqH/JW+bEEo1FhgG71rslvjfi4y7KmlrR0=
+github.com/aws/aws-lambda-go v1.55.1/go.mod h1:V+NzkHNR6vBC8C1PDloqSLE+7jYWFiPvJJFiCiTm8nE=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:WwZ+bS3ebgob9U8Nd0kOddGdZWjyMGR8Wziv+TBNwSE=
@@ -10,8 +10,8 @@ github.com/ikawaha/kagome.ipadic v1.1.2 h1:pFxZ1PpMpc6ZoBK712YN5cVK0u/ju2DZ+gRIO
 github.com/ikawaha/kagome.ipadic v1.1.2/go.mod h1:DPSBbU0czaJhAb/5uKQZHMc9MTVRpDugJfX+HddPHHg=
 github.com/jessevdk/go-assets v0.0.0-20160921144138-4f4301a06e15/go.mod h1:Fdm/oWRW+CH8PRbLntksCNtmcCBximKPkVQYvmMl80k=
 github.com/mattn/go-gimei v0.0.0-20190131075016-6a4b8c0a2634/go.mod h1:4ggHGpvxbte2tfR5dSMcNG6EjEETJRJZfMnvdI7naK8=
-github.com/mattn/go-gimei v0.0.4 h1:bW+/59oHuGk3hvZz4n7OxSr1D801/m4zFdK0UOCLttQ=
-github.com/mattn/go-gimei v0.0.4/go.mod h1:EOUfDJNA9Icqfdi6+BEZYIf/Bs8P+dSem2/mX5adh4Q=
+github.com/mattn/go-gimei v0.0.5 h1:McgZstPAxtcK84quXEEEXgkcGjMvBsgOXy5H76Iv8rs=
+github.com/mattn/go-gimei v0.0.5/go.mod h1:EOUfDJNA9Icqfdi6+BEZYIf/Bs8P+dSem2/mX5adh4Q=
 github.com/miiton/kanaconv v0.0.0-20190113030651-37b47860541b/go.mod h1:QrxJBSmXXUCbXp+bDg28x8dvOPMSakVnREovgqvgtP4=
 github.com/miiton/kanaconv v1.1.1 h1:OBp7EuEQLZNgLoAOTTg7vMli0mNYUnCGrbiKspwRarw=
 github.com/miiton/kanaconv v1.1.1/go.mod h1:ouBMwkiXMb/d1QUp60c2qeRyv89IuDnorGjNUVbmDVg=
@@ -19,8 +19,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.7.2 h1:4jaiDzPyXQvSd7D0EjG45355tLlV3VOECpq10pLC+8s=
 github.com/stretchr/testify v1.7.2/go.mod h1:R6va5+xMeoiuVRoj+gSkQ7d3FALtqAAGI1FQKckRals=
-golang.org/x/text v0.28.0 h1:rhazDwis8INMIwQ4tpjLDzUhx6RlXqZNPEM0huQojng=
-golang.org/x/text v0.28.0/go.mod h1:U8nCwOR8jO/marOQ0QbDiOngZVEBB7MAiitBuMjXiNU=
+golang.org/x/text v0.43.0 h1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=
+golang.org/x/text v0.43.0/go.mod h1:hbSIYA/amXcRXTFSZqh8tWHEoqRvvbKPJ2uz/KU+a+s=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=

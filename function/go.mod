@@ -1,18 +1,18 @@
 module oji-widget
 
-go 1.23.0
+go 1.26.0
 
-toolchain go1.25.0
+toolchain go1.27.3
 
 require (
-	github.com/aws/aws-lambda-go v1.49.0
+	github.com/aws/aws-lambda-go v1.55.1
 	github.com/greymd/ojichat v0.2.2
 )
 
 require (
 	github.com/ikawaha/kagome.ipadic v1.1.2 // indirect
-	github.com/mattn/go-gimei v0.0.4 // indirect
+	github.com/mattn/go-gimei v0.0.5 // indirect
 	github.com/miiton/kanaconv v1.1.1 // indirect
-	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
